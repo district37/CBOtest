@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Antonio:wght@100;200;300;400;500;600;700&family=Roboto+Mono:wght@100&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+#sidebarA{
+    color: rgb(255, 255, 255);
+}
+
+#filterResults{
+    font-size: 12px;
+    color: white;
+    background-color: #2c603a;
+    font-family: 'Antonio', sans-serif;
+}
+
+.theme{
+    background-color: #498654;
+    font-family: 'Antonio', sans-serif;
+    font-weight: 700;
+}
+
+.select{
+    font-style: italic;
+    opacity: .7;
+    
+}
+
+.mapboxgl-ctrl-geocoder--input {
+    padding: 6px 30px;
+    margin-left: 5px;
+    
+}
+
+.listings .item {
+    font-size: 14px;
+    word-wrap: break-word;
+    text-decoration: none;
+    border-bottom: solid rgba(136, 165, 137, 0.56) 1px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+
+.listings .item:last-child {
+    border-bottom: none;
+
+}
+
+.listings .item .title {
+    display: inline-block;
+    width: 100%;
+    color: #228156;
+    font-weight: 800;
+    margin-top: 5px;
+    text-decoration: none;
+
+}
+
+
+::-webkit-scrollbar {
+    width: 3px;
+    height: 3px;
+    border-left: 0;
+    background: rgba(170, 189, 147, 0.219);
+
+}
+
+::-webkit-scrollbar-track {
+    background: none;
+
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 0;
+    background: #228156;
+
+}
+
+
+.clearfix {
+    display: block;
+
+}
+
+.clearfix::after {
+    content: '.';
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+
+}
+
+.mapboxgl-popup-content {
+    text-align: center;
+    padding: 5;
+    width: 180px;
+    
+  }
+
+.mapboxgl-popup-close-button {
+    display: none;
+  }
+
+.mapboxgl-popup-content h3 {
+    color:#228156;
+    font-weight: 500;
+    font-size: 15px;
+    margin: 0;
+    display: block;
+    font-family: 'Antonio', sans-serif;
+  }
+
+
+  
